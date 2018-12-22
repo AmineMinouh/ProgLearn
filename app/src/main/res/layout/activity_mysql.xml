@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaa"
+    tools:context="com.example.amine.proglearn.mysql">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/titreprincipal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="mysql"
+                android:textSize="25dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:id="@+id/titres1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="@string/titrechap1mysql"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="@string/chap1mysql"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+
+                <Button
+                    android:id="@+id/mysqlcomnt1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="00dp"
+                    android:background="@drawable/iconfinder_message_1645994"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/mysqlcomnter1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_rond"
+                    android:hint="comnt..."
+                    android:textSize="20dp"
+                    />
+                <Button
+                    android:id="@+id/mysqlenvoyer1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0"
+                    android:onClick="envoyerCmntr1"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/iconfinder_navigation_1645997"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/quesion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="@string/questionchap1mysql"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGrop1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="question"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interface_graphique"
+                    android:onClick="radiochap1"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sgbd"
+                    android:onClick="radiochap1"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Script "
+                    android:onClick="radiochap1"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/repnceQuistion1"
+                android:layout_width="90dp"
+                android:background="@drawable/edit_button"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="reponder"
+                android:textColor="#fff"
+
+                android:layout_marginLeft="200dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutChap2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titres2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/titrechap2mysql"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"/>
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/chap2mysql"
+                    android:textSize="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"/>
+
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <Button
+                        android:id="@+id/mysqlcomnt2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="00dp"
+                        android:background="@drawable/iconfinder_message_1645994"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/mysqlcomnter2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:ems="10"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_rond"
+                        android:hint="comnt..."
+                        android:textSize="20dp"
+                        />
+                    <Button
+                        android:id="@+id/mysqlenvoyer2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0"
+                        android:onClick="envoyerCmntr2"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/iconfinder_navigation_1645997"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/quesion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/questionchap2mysql"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGrop2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="question"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="java"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="pascal"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="php"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/repnceQuistion2"
+                    android:layout_width="90dp"
+                    android:background="@drawable/edit_button"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="reponder"
+                    android:textColor="#fff"
+
+                    android:layout_marginLeft="200dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutChap3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/titres3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/titrechap3mysql"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"/>
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/chap3mysql"
+                    android:textSize="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"/>
+
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <Button
+                        android:id="@+id/mysqlcomnt3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="00dp"
+                        android:background="@drawable/iconfinder_message_1645994"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/mysqlcomnter3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:ems="10"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_rond"
+                        android:hint="comnt..."
+                        android:textSize="20dp"
+                        />
+                    <Button
+                        android:id="@+id/mysqlenvoyer3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0"
+                        android:onClick="envoyerCmntr3"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/iconfinder_navigation_1645997"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/quesion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="@string/questionchap3mysql"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGrop3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="question"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="phpmyadmin"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="eclipce"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="androidStudio "/>
+
+                </RadioGroup>
+
+
+
+
+                <Button
+                    android:id="@+id/repnceQuistion3"
+                    android:layout_width="90dp"
+                    android:background="@drawable/edit_button"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="reponder"
+                    android:textColor="#fff"
+
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

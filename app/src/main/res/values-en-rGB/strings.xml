@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProgLearn</string>
+    <string name="ct1">Education</string>
+    <string name="ct2">programming languages</string>
+    <string name="ct3">welcome</string>
+    <string name="ct4">E-mail</string>
+    <string name="ct5">Password</string>
+    <string name="ct6">Admin</string>
+    <string name="ct7">Teacher</string>
+    <string name="ct8">Student</string>
+    <string name="ct9">Log in</string>
+    <string name="ct10">Sign in</string>
+
+
+    <string name="ct11">Import photo</string>
+    <string name="ct12">Name</string>
+    <string name="ct13">First name</string>
+    <string name="ct14">Cancel</string>
+    <string name="ct15">Import photo</string>
+    <string name="ct16">Add a teacher</string>
+    <string name="ct17">Delete a teacher</string>
+    <string name="ct18">See the list of students</string>
+    <string name="ct19">update a course</string>
+    <string name="ct20">Delete a course</string>
+    <string name="ct21">Sign Out</string>
+    <string name="ct22">Olde</string>
+
+
+
+    <string name="titrechap1java">Introduction </string>
+    <string name="chap1java">Java is an object-oriented programming language created by James Gosling and Patrick Naughton, employees of Sun Microsystems, with the support of Bill Joy (co-founder of Sun Microsystems in 1982), officially presented on May 23, 1995 at SunWorld.
+
+Sun was then acquired in 2009 by Oracle, which now owns and maintains Java.
+
+The particularity and the central purpose of Java is that the software written in this language must be very easily portable on several operating systems such as Unix, Windows, Mac OS or GNU / Linux, with few or no modifications, but which have the disadvantage of being heavier at runtime (in memory and processor time) because of its virtual machine. For this, various platforms and associated frameworks aim to guide, if not guarantee, this portability of applications developed in Java.
+</string>
+    <string name="questionchap1java">Java is language :</string>
+
+
+
+
+    <string name="titrechap2java">The benefits of Java from other programming languages</string>
+    <string name="chap2java">Materially
+You will not pay any money to run on Java, it is an open and free source that will remain free for life.
+
+Technically
+You can program it even if your computer is weak or old.
+
+The simplicity
+Learn it very easily after understanding the programming of objects.
+
+Work in a neutral way
+The Java interpreter can split program commands to run them consistently across multiple processors using JRE.
+
+multitasking
+Java provides you with multithreading technology that allows you to make your program capable of executing multiple commands simultaneously and simultaneously.
+
+Translation speed
+The Java language is translated into commands that the device understands very quickly, without storing or saving it, because the objects are progressively connected to each other, which speeds up the execution of the commands.
+
+Error handling
+Java treats errors in two ways: when you type the code, you try to correct the errors in the code, and when you run the code, it signals any logical errors that you must handle yourself.
+
+dynamically
+Java is designed to be more dynamic than C and C ++. Java programs can contain a large amount of runtime information that can be used to verify code and ensure that the compiler can access objects at runtime.
+</string>
+    <string name="questionchap2java">When the code is compiled in Java</string>
+
+
+
+
+
+    <string name="titrechap3java">The concept of JDK</string>
+    <string name="chap3java">As I noted earlier, code written in Java goes through several steps to work. The main reason is that the operating system is not written in Java.
+From this point of view, you must know that for your operating system to recognize the Java language, you must download and install the Java Development Kit (JDK).
+
+
+The JDK, in turn, includes many things like:
+
+Java Ready Classes.
+Explanations about the classes and predefined functions that appear to you when you enter the code, called javadoc.
+Javac.
+Jave Runtime Environment (JRE), which in turn contains the Java virtual machine.
+
+
+
+</string>
+    <string name="questionchap3java">What does jdk contain</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="titrechap1php">Introduction  </string>
+    <string name="chap1php">PHP: Hypertext Preprocessor, better known by its acronym PHP is a free programming language, mainly used to produce dynamic web pages via an HTTP server, but can also work like any other language interpreted locally. PHP is an imperative object-oriented language.
+PHP has created a large number of famous websites, such as Facebook, Wikipedia, etc. It is considered as one of the bases of the creation of so-called dynamic websites but also web applications.
+</string>
+    <string name="questionchap1php">Where PHP is used</string>
+
+
+    <string name="titrechap2php">Php features</string>
+    <string name="chap2php">PHP belongs to the great family of C descendants, whose syntax is very close. In particular, its syntax and construction resemble those of Java and Perl languages, except that PHP code can easily be mixed with HTML code within a PHP file.
+
+In a use intended for the Internet, the execution of the PHP code takes place as follows: when a visitor asks to consult a page of a website, his browser sends a request to the corresponding HTTP server. If the page is identified as a PHP script (usually thanks to the extension .php), the server calls the PHP interpreter that will process and generate the final code of the page (usually HTML or XHTML, but also often cascading style sheets and JS). This content is sent back to the HTTP server, which ultimately sends it to the client.
+</string>
+    <string name="questionchap2php">Where  executed the query</string>
+
+
+
+
+
+    <string name="titrechap3php">The paradigm of PHP</string>
+    <string name="chap3php">As in C ++ and Java, PHP allows object-oriented programming, creating classes containing attributes and methods, which can be instantiated or used in static.
+
+However, PHP is a simple inheritance language, that is, a class can only inherit from at most one other class (otherwise you must use a line to simulate multiple inheritance by composition). However, the interfaces can extend several others.
+</string>
+    <string name="questionchap3php">What is the paradigm that belongs to PHP?</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="titrechap1mysql"> Introduction</string>
+    <string name="chap1mysql">MySQL is a relational database management system (RDBMS). It is distributed under a dual GPL license and owner. It is one of the most used database management software in the world, both by the general public (mainly web applications) and by professionals, in competition with Oracle, PostgreSQL and Microsoft SQL Server.
+
+His name comes from the name of the daughter of co-creator Michael Widenius, My. SQL refers to the Structured Query Language, the query language used.
+
+MySQL AB was purchased on January 16, 2008 by Sun Microsystems for US $ 1 billion4. In 2009, Sun Microsystems was acquired by Oracle Corporation, placing the two competing products Oracle Database and MySQL in the hands of the same company. This buyout was authorized by the European Commission on 21 January 20105,6.
+
+Since May 2009, its creator Michael Widenius has created MariaDB (Maria is the name of his second daughter) to continue its development as an Open Source project.
+</string>
+    <string name="questionchap1mysql">Why MySQL</string>
+
+
+    <string name="titrechap2mysql">use</string>
+    <string name="chap2mysql">MySQL is part of the LAMP foursome: Linux, Apache, MySQL, PHP. It also belongs to its variants WAMP (Windows) and MAMP (Mac OS).
+
+The PHP / MySQL pair is widely used by websites and offered by the majority of web hosts. More than half of the websites run on Apache, which is most often used in conjunction with PHP and MySQL.
+</string>
+    <string name="questionchap2mysql">What is The very used couple with mysql?</string>
+
+
+
+
+
+    <string name="titrechap3mysql">features</string>
+    <string name="chap3mysql">There are two main engines in MySQL, MyISAM and InnoDB. MyISAM, unlike InnoDB, does not support transactions or automatic table integrity, it is not intended for applications whose data consistency is critical; however, its performance makes it adopt for applications that need a simple and inexpensive database to implement.
+
+For users, phpMyAdmin is a web tool often available to create, fill and use MySQL databases.
+</string>
+    <string name="questionchap3mysql">what is the MySQL Manager?</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="titrechap1html">Introduction </string>
+    <string name="chap1html">HyperText Markup Language, usually abbreviated as HTML, is the markup language designed to represent web pages. It is a language for writing hypertext, hence its name. HTML also allows you to semantically and logically structure and format the content of pages, to include multimedia resources including images, input forms and computer programs. It makes it possible to create interoperable documents with a wide variety of equipment in accordance with the requirements of web accessibility. It is often used in conjunction with the JavaScript programming language and Cascading Style Sheets (CSS). HTML is initially derived from the Standard Generalized Markup Language (SGML). This is an open format.</string>
+    <string name="questionchap1html">In what is used html</string>
+
+
+    <string name="titrechap2html">Elements of HTML</string>
+    <string name="chap2html">Main article: HTML element.
+Version 4 of HTML describes 91 elements. By following the HTML 4 specification, the features implemented by HTML can be distributed as follows:
+
+General structure of an HTML document
+At the highest level, an HTML document is separated between a header and a body. The header contains information about the document, including its title and possibly metadata. The body contains what is displayed.
+Language information
+It is possible to indicate the language of any part of the document and to manage the mixing of text from left to right with text from right to left.
+Semantic marking
+HTML makes it possible to differentiate specific content such as quotations from external works, excerpts from computer code, passages in emphasis and abbreviations. Some of these elements, initially designed to allow the support of technical documentation, are very rarely used (differentiation between variable elements and example value in a computer code, for example, or instance of a term defined in the context).
+lists
+HTML differentiates between unordered and ordered lists, depending on whether the formal order of the content in the code itself is information. Definition lists also exist, but their scope is not exactly determined.
+Tables
+This feature was developed to allow the presentation of tabular data but was immediately exploited for its powerful layout capabilities.
+hyperlinks
+The primary functionality of HTML.
+Inclusion of images, applets and other objects
+Originally HTML only allowed to give hyperlinks on external media. The invention of specialized elements for multimedia allowed the automatic inclusion of image, music, video, etc. in the web pages.
+Grouping elements
+These generic elements do not give meaning to the content they mark out, and they make it possible to apply presentation styles, carry out processing via scripts or any other operation that requires isolating part of the content.
+Style of the presentation
+Each element, or even the whole document, can be applied styles. Styles are defined in the document or from external Cascading Style Sheets (CSS).
+Text presentation marking43
+Developed before the generalization of CSS to quickly provide functionalities to graphic designers. Of use now officially deprecated for the most part.
+managerial staff
+Also known as frames, an often-maligned feature that allows you to view multiple HTML documents in a single window.
+Form for interactive data insertion
+Form elements allow visitors to enter text and files into web pages.
+scripts
+Allows you to associate program pieces with user actions on the document. The languages used are usually JavaScript and VBScript.
+</string>
+    <string name="questionchap2html">When the code is compiled in Java?</string>
+
+
+
+
+
+    <string name="titrechap3html">Structure of HTML documents</string>
+    <string name="chap3html">In the early years, HTML documents were often viewed as flat structures, and tags as style commands. Thus the balise p tag was considered a line break, and the balise p close tag was ignored. Or when JavaScript 1.0 appeared, it only gave access to links and forms in the document through the document.forms and document.links tables.
+
+With the introduction of Cascading Style Sheets and the Document Object Model, we had to consider that HTML documents have a real tree structure, with a root element containing all the other elements. The opening and closing tags of these elements remain optional. However, today there is a tendency to mark each element33 and to indicate the DTD. With the exception of the element at the root, each element has exactly one direct parent element; this "document tree" is used in particular by the formatting structure derived therefrom for the application of cascading style sheets where each element can have its own background, edge and margin.
+</string>
+    <string name="questionchap3html">What is the meaning of  tag</string>
+
+
+</resources>

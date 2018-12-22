@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProgLearn</string>
+    <string name="ct1">تعليم</string>
+    <string name="ct2">اللغات البرمجية</string>
+    <string name="ct3">مرحبا</string>
+    <string name="ct4">الايمايل</string>
+    <string name="ct5">كلمة المرور</string>
+    <string name="ct6">مسؤول</string>
+    <string name="ct7">معلم</string>
+    <string name="ct8">تلميذ</string>
+    <string name="ct9">دخول</string>
+    <string name="ct10">تسجيل</string>
+
+    <string name="ct11">تحميل صورة</string>
+    <string name="ct12">اللفب</string>
+    <string name="ct13">الاسم</string>
+    <string name="ct14">الغاء</string>
+    <string name="ct15">تحميل صورة</string>
+    <string name="ct16">اضافة معلم</string>
+    <string name="ct17">حذف معلم</string>
+    <string name="ct18">قائمة التلاميذ</string>
+    <string name="ct19">اضافة درس</string>
+    <string name="ct20">حذف درس</string>
+    <string name="ct21">خروج</string>
+</resources>
